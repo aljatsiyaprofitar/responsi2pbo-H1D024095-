@@ -6,3 +6,26 @@ Setelah menyelesaikan kode, jawab pertanyaan berikut:
 3. Mengapa subclass wajib mengimplementasikan semua abstract method dari parent class?
 4. Mengapa abstract method tidak boleh memiliki isi implementasi di dalam abstract class?
 5. Bagaimana abstract class dapat mendukung konsep polimorfisme, dan mengapa objek yang direferensikan melalui tipe abstract class tetap dapat menjalankan perilaku berbeda pada masing-masing subclass?
+
+Jawaban:
+
+1. Abstract class adalah sebuah class yang berfungsi sebagai kerangka dasar atau "cetak biru setengah jadi" yang tidak dapat dibuat menjadi objek (instansiasi) secara langsung.
+   Kita membutuhkan abstract class untuk menciptakan standarisasi bagi class-class turunannya tanpa harus mendefinisikan detail implementasi yang spesifik di awal.
+
+2. Perbedaan mendasar terletak pada instansiasi dan kelengkapan method.
+   Class biasa (concrete class) adalah cetak biru yang utuh, sehingga dapat langsung diubah menjadi objek nyata (new ClassBiasa()) dan seluruh method di dalamnya wajib memiliki implementasi (body).
+   Sebaliknya, abstract class bersifat konseptual sehingga tidak bisa diinstansiasi langsung (new AbstractClass() akan error). Selain itu, abstract class memiliki keistimewaan untuk menampung abstract method (method tanpa body/isi), sedangkan class biasa tidak diperbolehkan memilikinya.
+
+3. Subclass wajib mengimplementasikan semua abstract method sebagai bentuk pemenuhan kontrak.
+   Ketika sebuah abstract class mendefinisikan method abstrak (seperti jelajah() atau aktifkanMesin()), ia sedang memaksa sub-class mengimplementasika method abstract.
+   Jika subclass tidak mengimplementasikan method tersebut, maka subclass itu dianggap masih "cacat" atau belum lengkap, sehingga kompilator akan menolak kode tersebut kecuali subclass itu sendiri juga dideklarasikan sebagai abstract class.
+
+4. Abstract method tidak boleh memiliki isi karena tujuannya adalah mendefinisikan "apa" yang harus dilakukan, bukan "bagaimana" caranya.
+   Dalam konteks KendaraanGalaksi, parent class tidak mungkin tahu cara kerja mesin setiap kendaraan karena mekanismenya terlalu bervariasi.
+   Jika abstract method diberi isi, maka ia kehilangan sifat abstraksinya dan berubah menjadi method biasa (virtual method).
+   Ketiadaan implementasi ini sengaja didesain untuk memaksa programmer mendefinisikan logika spesifik di level subclass, menghindari logika umum yang mungkin tidak relevan atau salah jika dipaksakan pada semua anak class.
+
+5. Abstract class mendukung polimorfisme melalui mekanisme referensi tipe induk (parent reference) dan dynamic binding.
+   Kita dapat mendeklarasikan variabel dengan tipe KendaraanGalaksi, namun mengisinya dengan objek PesawatTempur atau KapalEksplorasi.
+   Meskipun referensinya sama-sama bertipe KendaraanGalaksi, ketika method jelajah() dipanggil, program tidak melihat tipe variabelnya, melainkan melihat objek asli yang ada di memori saat runtime.
+   Inilah sebabnya mengapa satu baris kode yang sama bisa menghasilkan perilaku yang berbeda (pesawat boros energi vs kapal hemat energi) tergantung objek apa yang sedang dipegang oleh variabel tersebut.

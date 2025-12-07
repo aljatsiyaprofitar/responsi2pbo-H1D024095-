@@ -44,9 +44,9 @@ Atribut tambahan:
 Override: 
    * tampilInfo()
    * nilaiPerforma():
-performa = (tenagaHP x 1.1) + (kapasitasBaterai x 5)
-   * kategoriMMesin():
-return "Mesin Traktor Listrik";
+performa = (tenagaHP x 0.9) + (kapasitasTarik x 10)
+   * kategoriMesin():
+return "Mesin Traktor";
 Method unik:
    * suaraMesin():
 "GGGRRRR! Hidup mesinnn!"
@@ -55,12 +55,12 @@ Method unik:
 4. Subclass mesinTraktorListrik (extends mesinTraktor)
 Atribut tambahan:
    * kapasitasBaterai (kWh)
-Override: 
+Override:
    * tampilInfo()
    * nilaiPerforma():
-performa = tenagaHP x 0.9 + kapasitasTarik x 10
-   * kategoriMMesin():
-return "Mesin Traktor";
+performa = (tenagaHP x 1.1) + (kapasitasBaterai x 5)
+   * kategoriMesin():
+return "Mesin Traktor Listrik";
 Method unik:
    * suaraMesin():
 "Bzzzzz! Mesin traktor listrik aktif!"
@@ -75,9 +75,9 @@ Method unik:
    2. mesinTraktor
    * Nama = "Kubota MX5200"
    * HP = 520
-   * Kapasitas Tarik = 4.5
+   * Kapasitas Tarik = 5.0
    3. mesinTraktorListrik
-   * Nama = “EcoTrac Z900”, 
+   * Nama = “EcoTrac Z900”,
    * HP = 300
    * kapasitasTarik = 4.2
    * kapasitasBaterai = 70
@@ -86,8 +86,8 @@ Method unik:
    * HP = 250
    * Tipe = "Sport"
    5. mesinTraktorListrik
-   * Nama = “Volta FarmX”, 
-   * HP = 300
+   * Nama = “Volta FarmX”,
+   * HP = 200
    * kapasitasTarik = 3.5
    * kapasitasBaterai = 80
 
@@ -127,27 +127,37 @@ Performa: 150.0
 
 Mesin Traktor Kubota MX5200 | Tarik: 5.0 ton | Tenaga: 520 HP
 Kategori: Mesin Traktor
-Performa: 548.0
+Performa: 518.0
 
 
-Mesin Traktor Listrik EcoTrac Z900 | Tarik: 4.2 ton | Baterai: 70 kWh | Tenaga: 300 HP
+Mesin Traktor Listrik EcoTrac Z900 | Tarik: 4.2 ton | Baterai: 70.0 kWh | Tenaga: 300 HP
 Kategori: Mesin Traktor Listrik
-Performa: 655.0
+Performa: 680.0
 
 
+Mesin Motor Yamaha R25 | Tipe: Sport | Tenaga: 250 HP
+Kategori: Mesin Motor
+Performa: 300.0
+
+
+Mesin Traktor Listrik Volta FarmX | Tarik: 3.5 ton | Baterai: 80.0 kWh | Tenaga: 200 HP
+Kategori: Mesin Traktor Listrik
+Performa: 620.0
 
 
 === SUARA MESIN ===
-Honda Supra X → Brummm! Mesin motor menyala!
-Kubota MX5200 → GGGRRRR! Hidup mesinnn!
-EcoTrac Z900 → Bzzzzz! Mesin traktor listrik aktif!
+Brummm! Mesin motor menyala!
+GGGRRRR! Hidup Mesinnn!
+Bzzzzz! Mesin traktor listrik aktif!
+Brummm! Mesin motor menyala!
+Bzzzzz! Mesin traktor listrik aktif!
 
 
 === MESIN PERFORMA TERTINGGI ===
-EcoTrac Z900 → 655.0
+EcoTrac Z900 → 680.0
 
 
 === TOP 3 MESIN TERBAIK ===
-1. EcoTrac Z900 → 655.0
-2. Kubota MX5200 → 548.0
-3. Volta FarmX → 590.0
+1. EcoTrac Z900 → 680.0
+2. Volta FarmX → 620.0
+3. Kubota MX5200 → 518.0

@@ -7,3 +7,14 @@ Apa yang terjadi jika kita mencoba mengubah nilai suatu konstanta setelah objek 
 Bagaimana cara mendefinisikan konstanta dalam bahasa Java?
 
 Jawaban
+1. Fungsi adalah metode yang mengembalikan nilai, sementara prosedur adalah metode yang tidak mengembalikan nilai.
+   Contoh fungsi: double hitungBMI()
+   Contoh prosedur: void tampilInfo()
+
+2. Menggunakan konstanta dalam suatu kelas sangat penting untuk menjaga keamanan data.
+   Keuntungannya yaitu menjamin nilai-nilai yang tetap tidak dapat diubah secara tidak sengaja oleh bagian kode lain atau programmer lain.
+
+3. Program mengalami kegagalan kompilasi(compile-time error).
+
+4. Dengan menambahkan kata kunci "final" sebelum tipe data saat deklarasi variabel.
+   Contoh: final double faktorAktivitas

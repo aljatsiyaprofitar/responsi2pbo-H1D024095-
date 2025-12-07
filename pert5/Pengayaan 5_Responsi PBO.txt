@@ -5,3 +5,24 @@ Jawablah pertanyaan berikut:
 3. Apa perbedaan override dan overload?
 4. Apa keuntungan menggunakan polimorfisme dalam sistem inventaris seperti contoh di atas?
 5. Bagaimana cara kerja dynamic dispatch pada Java saat memanggil method override?
+
+Jawaban:
+
+1. Polimorfisme dalam OOP adalah prinsip yang memungkinkan sebuah objek untuk memiliki banyak bentuk, di mana satu antarmuka atau kelas induk dapat digunakan untuk merepresentasikan berbagai jenis kelas turunan yang berbeda.
+   Konsep ini memungkinkan kode program untuk memperlakukan objek-objek dari kelas yang berbeda secara seragam asalkan mereka berasal dari hierarki pewarisan yang sama. Dalam konteks ini, metode override bekerja sebagai mekanisme kunci di mana subclass menyediakan implementasi spesifik untuk metode yang sudah didefinisikan di superclass.
+   Ketika metode tersebut dipanggil, sistem akan mengabaikan implementasi pada superclass dan menjalankan implementasi yang ada pada subclass, sehingga perilaku objek sesuai dengan identitas aslinya meskipun diakses melalui referensi kelas induk.
+
+2. Array bertipe DefaultMesin dapat menyimpan objek MesinMotor dan MesinTraktor karena adanya hubungan pewarisan (inheritance) yang menciptakan relasi "is-a" (adalah sebuah).
+   Karena MesinMotor dan MesinTraktor merupakan turunan langsung dari DefaultMesin, maka secara teknis kedua objek tersebut juga merupakan DefaultMesin.
+
+3. Override terjadi dalam hubungan pewarisan (parent-child), di mana nama metode, tipe kembalian, dan parameternya harus persis sama dengan metode di kelas induk untuk menggantikan perilakunya. Ini adalah bentuk polimorfisme runtime.
+   Sebaliknya, overload terjadi di dalam satu kelas yang sama (atau turunan), di mana nama metodenya sama tetapi memiliki daftar parameter yang berbeda (baik jumlah maupun tipe datanya).
+
+4. Penerapan polimorfisme dalam sistem inventaris memberikan keuntungan berupa fleksibilitas (extensibility) dan penyederhanaan kode (simplicity).
+   Sistem menjadi mudah dikembangkan karena jika ada penambahan jenis mesin baru, pengembang cukup membuat kelas baru yang mewarisi kelas induk tanpa harus mengubah logika utama pada sistem pelaporan atau perhitungan performa.
+   Selain itu, polimorfisme membuat kode lebih bersih dan mudah dibaca karena menghilangkan kebutuhan akan logika percabangan yang rumit (seperti if-else atau switch-case) untuk mengecek tipe objek satu per satu setiap kali ingin memanggil metode standar seperti tampilInfo atau nilaiPerforma.
+
+5. Dynamic dispatch (atau dynamic binding) adalah mekanisme internal Java untuk menentukan metode mana yang akan dieksekusi pada saat program berjalan (runtime), bukan saat kompilasi.
+   Ketika sebuah metode yang di-override dipanggil melalui variabel referensi superclass, Java Virtual Machine (JVM) tidak melihat tipe variabel referensinya, melainkan memeriksa tipe objek aktual yang tersimpan di memori (heap).
+   JVM akan mencari implementasi metode pada kelas dari objek tersebut. Jika kelas tersebut memiliki implementasi metode itu, maka metode itulah yang dijalankan.
+   Mekanisme ini memastikan bahwa metode yang paling spesifik sesuai dengan objek aslinya yang akan selalu dieksekusi.

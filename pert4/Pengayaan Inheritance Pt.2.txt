@@ -9,3 +9,18 @@
 4. Bagaimana keyword super membantu membedakan atribut yang memiliki nama sama antara parent dan child?
 
 5. Mengapa pendekatan inheritance lebih efisien dibanding menyalin ulang seluruh atribut dan method ke dalam class Member?
+
+Jawaban:
+
+1. Karena class Member adalah turunan dari Customer, setiap kali objek Member dibuat, bagian dari dirinya yang merupakan Customer (yaitu atribut nama, id, totalBelanja) harus disiapkan atau diinisialisasi terlebih dahulu.
+
+2. Tujuannya agar kita tidak perlu menulis ulang kode System.out.println untuk nama, id, dan totalBelanja di dalam class Member.
+
+3. Kondisi ini terlihat jelas pada method tampilkanInfo().
+   Jika di dalam Member.tampilkanInfo() tidak ada super.tampilkanInfo(), Informasi Nama dan ID akan hilang dari layar. Jadi, super.method() di sini sangat penting untuk memastikan informasi dasar dari parent tetap muncul sebelum informasi tambahan dari child ditampilkan.
+
+4. Keyword super digunakan untuk mengakses atribut milik parent ketika atribut tersebut memiliki nama yang sama dengan atribut di child.
+   Saat atribut dipanggil langsung, yang digunakan adalah milik child, sedangkan dengan super.nama kita secara jelas mengambil atribut milik parent.
+   Dengan begitu, super berfungsi sebagai pembeda saat terjadi konflik nama antara parent dan child.
+
+5. Karena pendekatan inheritance jauh lebih efisien.

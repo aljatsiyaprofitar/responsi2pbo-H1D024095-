@@ -8,3 +8,18 @@ Setelah menyelesaikan kode, jawab pertanyaan berikut:
 5. Mengapa kita perlu menggunakan Inheritance? Apa keuntungan utamanya dibandingkan membuat dua class yang terpisah sama sekali (misal class Karyawan dan class Manajer dibuat terpisah tanpa hubungan)?
 
 Jawaban:
+
+1. Untuk menciptakan hubungan pewarisan. Class turunan akan mewarisi variabel(atribut) dan method dari parent class, kecuali yang bersifat private.
+
+2. Method Overloading terjadi di dalam satu class yang sama. Tujuannya adalah membuat nama method yang sama tetapi bisa menerima parameter yang berbeda.
+   Sementara Method Overriding terjadi pada dua class yang berhubungan. Tujuannya adalah mengubah atau memodifikasi ulang isi/perilaku method yang diwariskan oleh parent agar sesuai dengan kebutuhan spesifik child class. Pada overriding, nama method dan parameternya harus persis sama.
+
+3. Keyword super(nama, gajiPokok) di dalam constructor Manajer berfungsi untuk memanggil constructor milik class induk (Karyawan).
+   Karena variabel nama dan gajiPokok dideklarasikan di class Karyawan, maka tugas inisialisasi (pengisian nilai awal) sebaiknya diserahkan kembali kepada Karyawan.
+
+4. ika variabel nama dan gajiPokok di class Karyawan diubah menjadi private, maka class Manajer akan mengalami error (gagal compile) saat mencoba mengakses super.nama atau super.gajiPokok.
+   Solusinya: Kita harus menerapkan konsep Encapsulation dengan membuat method public (Getter) di dalam class Karyawan, misalnya public String getNama(). Sehingga, Manajer bisa mengakses data tersebut melalui method getNama() dan bukan mengakses variabelnya secara langsung.
+
+5. Keuntungan utamanya adalah Reusability dan Efisiensi.
+   Tanpa inheritance, jika kita membuat class Karyawan dan Manajer secara terpisah, kita akan melakukan duplikasi kode (copy-paste) untuk variabel nama, gaji, dan method tampil info.
+   Jika ada perubahan logika (misal format gaji berubah), kita harus mengedit di dua tempat berbeda yang rawan kesalahan.
