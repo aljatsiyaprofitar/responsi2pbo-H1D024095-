@@ -1,7 +1,3 @@
-//Nama		: [Al Jatsiya Profitar Taqwala]//
-//NIM		: [H1D024095]//
-//Shift KRS	: [B]//
-//Shift Baru: [I]//
 package pert1;
 
 class Pengguna {
