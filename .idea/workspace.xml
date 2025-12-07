@@ -5,50 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee64453-cfa8-4f8b-9adc-166d3d06c2da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pert6/KapalEksplorasi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pert6/KendaraanGalaksi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pert6/PesawatTempur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pert6/UjiGalaksi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/responsipbo2H1D024095/.idea/ProjekPrakPBO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/responsipbo2H1D024095/responsipbo2H1D024095.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert1/Pengayaan1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pert1/Pengayaan1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pert1/Pengguna.Java" beforeDir="false" afterPath="$PROJECT_DIR$/pert1/Pengguna.Java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert1/UjiPengguna.Java" beforeDir="false" afterPath="$PROJECT_DIR$/pert1/UjiPengguna.Java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert2/Barangmusik.Java" beforeDir="false" afterPath="$PROJECT_DIR$/pert2/Barangmusik.Java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert2/Pengayaan2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pert2/Pengayaan2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert2/UjiBarang.Java" beforeDir="false" afterPath="$PROJECT_DIR$/pert2/UjiBarang.Java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert3/Karyawan.java" beforeDir="false" afterPath="$PROJECT_DIR$/pert3/Karyawan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert3/Manajer.java" beforeDir="false" afterPath="$PROJECT_DIR$/pert3/Manajer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert3/Pengayaan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pert3/Pengayaan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert3/UjiKaryawan.java" beforeDir="false" afterPath="$PROJECT_DIR$/pert3/UjiKaryawan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert4/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/pert4/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert4/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/pert4/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert4/Pengayaan Inheritance Pt.2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pert4/Pengayaan Inheritance Pt.2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert4/UjiCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/pert4/UjiCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert5/Pengayaan 5_Responsi PBO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pert5/Pengayaan 5_Responsi PBO.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert5/Soal 5_Responsi 2 PBO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pert5/Soal 5_Responsi 2 PBO.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert5/analisisMesin.java" beforeDir="false" afterPath="$PROJECT_DIR$/pert5/analisisMesin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert5/defaultMesin.java" beforeDir="false" afterPath="$PROJECT_DIR$/pert5/defaultMesin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert5/mesinMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/pert5/mesinMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert5/mesinTraktor.java" beforeDir="false" afterPath="$PROJECT_DIR$/pert5/mesinTraktor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert5/mesinTraktorListrik.java" beforeDir="false" afterPath="$PROJECT_DIR$/pert5/mesinTraktorListrik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert6/Abstract KendaraanGalaksi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert6/Pengayaan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pert6/Pengayaan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert6/class KapalEksplorasi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert6/class PesawatTempur.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert6/class main UjiGalaksi.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert7/Class-EWalletPayment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/responsipbo2H1D024095/src/pert7/EWalletPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert7/Interface-PaymentMethod.txt" beforeDir="false" afterPath="$PROJECT_DIR$/responsipbo2H1D024095/src/pert7/PaymentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert7/Main-PaymentTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/responsipbo2H1D024095/src/pert7/PaymentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert7/Pengayaan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/responsipbo2H1D024095/src/pert7/Pengayaan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert7/Responsi Praktikum PBO - Materi Interface.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/responsipbo2H1D024095/src/pert7/Responsi Praktikum PBO - Materi Interface.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert8/Class-ProgrammerMagang.txt" beforeDir="false" afterPath="$PROJECT_DIR$/responsipbo2H1D024095/src/pert8/Class-ProgrammerMagang.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert8/Interface-AksesSistem.txt" beforeDir="false" afterPath="$PROJECT_DIR$/responsipbo2H1D024095/src/pert8/Interface-AksesSistem.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert8/Interface-KaryawanKontrak.txt" beforeDir="false" afterPath="$PROJECT_DIR$/responsipbo2H1D024095/src/pert8/Interface-KaryawanKontrak.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert8/Pengayaan.txt" beforeDir="false" afterPath="$PROJECT_DIR$/responsipbo2H1D024095/src/pert8/Pengayaan.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert8/Soal Responsi PBO.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/responsipbo2H1D024095/src/pert8/Soal Responsi PBO.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pert8/UjiSDM-Main.txt" beforeDir="false" afterPath="$PROJECT_DIR$/responsipbo2H1D024095/src/pert8/UjiSDM-Main.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pert1/UjiPengguna.Java" beforeDir="false" afterPath="$PROJECT_DIR$/pert1/Main.Java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +16,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -69,37 +24,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UjiBarang.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UjiCustomer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UjiGalaksi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UjiKaryawan.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UjiPengguna.executor&quot;: &quot;Run&quot;,
-    &quot;Application.analisisMesin.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Documents/File Kuliah 1/ProjekPrakPBO&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ASUS/Documents/File Kuliah 1/ProjekPrakPBO/untitled/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ASUS/Documents/File Kuliah 1/ProjekPrakPBO",
+    "onboarding.tips.debug.path": "C:/Users/ASUS/Documents/File Kuliah 1/ProjekPrakPBO/responsi2pboH1D024095/src/Main.java"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\Documents\File Kuliah 1\ProjekPrakPBO" />
-      <recent name="C:\Users\ASUS\Documents\File Kuliah 1\ProjekPrakPBO\responsipbo2H1D024095\src" />
-      <recent name="C:\Users\ASUS\Documents\File Kuliah 1\ProjekPrakPBO\untitled\src" />
-      <recent name="C:\Users\ASUS\Documents\File Kuliah 1\ProjekPrakPBO\untitled" />
-    </key>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -124,11 +60,6 @@
           <url>file://$PROJECT_DIR$/responsi2pboH1D024095/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/pert2/Barangmusik.Java</url>
-          <line>2</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

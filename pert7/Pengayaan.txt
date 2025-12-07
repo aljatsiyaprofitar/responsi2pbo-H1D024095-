@@ -1,0 +1,28 @@
+Pertanyaan Refleksi
+Setelah menyelesaikan kode, jawab pertanyaan berikut:
+
+1. Apa perbedaan antara interface dengan class biasa?
+2. Mengapa interface tidak memiliki implementasi method di dalamnya?
+3. Apa tujuan penggunaan keyword "implements" pada sebuah class?
+4. Apakah sebuah class dapat mengimplementasikan lebih dari satu interface? Jelaskan dan berikan contoh sederhana.
+5. Jika sebuah class mengimplementasikan interface, apa yang terjadi jika class tersebut tidak mengimplementasikan semua method dari interface tersebut?
+
+Jawaban:
+
+1. Perbedaan mendasar terletak pada tujuannya dan isinya.
+   Class biasa adalah cetak biru (blueprint) dari sebuah objek yang berisi definisi atribut (state) dan implementasi penuh dari method (behavior), serta memiliki constructor untuk instansiasi objek.
+   Sebaliknya, interface adalah sekumpulan method abstrak (tanpa body) dan konstanta statis yang berfungsi sebagai kontrak atau standar perilaku.
+
+2. Interface tidak memiliki implementasi method (secara default) karena tujuannya adalah untuk menyediakan abstraksi murni.
+   Interface berfungsi sebagai kontrak yang menjamin bahwa class apa pun yang menggunakannya pasti memiliki kemampuan tertentu, tanpa mendikte cara kerjanya.
+   Hal ini memberikan fleksibilitas tinggi, di mana berbagai class yang berbeda dapat mengimplementasikan method yang sama dengan logika yang sangat berbeda sesuai kebutuhan spesifik class tersebut (konsep polimorfisme).
+
+3. Keyword implements digunakan untuk menyatakan bahwa sebuah class bersedia mematuhi "kontrak" yang didefinisikan oleh sebuah interface.
+   Dengan menggunakan keyword ini, class tersebut berjanji kepada compiler bahwa ia akan menuliskan kode (meng-override) untuk semua method abstrak yang ada di dalam interface tersebut.
+
+4. Ya, sebuah class dapat mengimplementasikan lebih dari satu interface.
+   Di Java, multiple inheritance (warisan ganda) antar class tidak diizinkan untuk menghindari ambiguitas, namun sebuah class diizinkan mengimplementasikan banyak interface sekaligus.
+   Caranya adalah dengan memisahkan nama interface menggunakan tanda koma setelah keyword implements.
+   Contoh sederhananya adalah class Smartphone. Class ini bisa mengimplementasikan interface Kamera (untuk memotret) dan sekaligus interface GPS (untuk melacak lokasi), karena sebuah smartphone memiliki kemampuan keduanya sekaligus.
+
+5. Jika sebuah class mendeklarasikan dirinya mengimplementasikan sebuah interface tetapi tidak menuliskan ulang (override) semua method yang ada di interface tersebut, maka akan terjadi error kompilasi (compile-time error).

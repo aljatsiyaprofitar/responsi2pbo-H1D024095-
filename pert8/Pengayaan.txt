@@ -1,0 +1,29 @@
+Setelah anda menyelesaikan kode, tolong jawab pertanyaan dibawah ini ya =
+
+
+1. Apa tujuan utama adanya interface dalam pemrograman berorientasi objek, dan bagaimana interface membantu menciptakan kontrak perilaku?
+2. Mengapa interface dapat memiliki banyak implementasi, dan apa makna konseptual dari kemampuan tersebut dalam desain sistem?
+3. Apa perbedaan mendasar antara extends dan implements dalam konteks interface, jika dilihat secara konsep tanpa melihat contoh kode?
+4. Apa alasan diperkenalkannya default method dalam interface, dan bagaimana fitur ini memengaruhi keberlangsungan (compatibility) suatu sistem yang sudah berjalan?
+5. Bagaimana konsep multiple interface memperluas fleksibilitas desain tanpa menimbulkan masalah kompleksitas yang biasa muncul pada multiple inheritance?
+
+Jawaban:
+
+1. Tujuan utama adanya interface adalah untuk menyediakan abstraksi murni yang memisahkan definisi "apa yang harus dilakukan" dari "bagaimana cara melakukannya".
+   Interface menciptakan kontrak perilaku dengan menetapkan sekumpulan method signature (nama metode, parameter, dan tipe kembalian) yang wajib dimiliki oleh kelas apa pun yang mengimplementasikannya.
+   Dalam konteks kontrak, interface bertindak sebagai penjamin bahwa objek tersebut pasti memiliki kemampuan tertentu.
+   Misalnya, jika sebuah kelas mengimplementasikan AksesSistem, sistem lain tidak perlu tahu logika internal kelas tersebut; sistem hanya perlu tahu (dan dijamin oleh compiler) bahwa kelas tersebut pasti memiliki metode login() dan logout().
+
+2. Interface dapat memiliki banyak implementasi karena secara konseptual ia merepresentasikan peran (role) atau kemampuan, bukan jati diri biologis/hierarkis objek tersebut. Makna konseptual dari kemampuan ini adalah tercapainya Polimorfisme.
+   Dalam desain sistem, ini berarti kita dapat mengganti satu objek dengan objek lain yang berbeda jenis (misalnya mengganti ProgrammerMagang dengan ManagerSenior) tanpa merusak sistem, asalkan kedua objek tersebut mengimplementasikan interface yang sama.
+
+3. Secara konsep, perbedaan mendasar antara keduanya terletak pada hubungan objek.
+   Implements tidak mewarisi atribut atau data, melainkan menyetujui sebuah protokol. Sebuah kelas menggunakan extends untuk memperluas fungsionalitas dari apa yang sudah ada, sedangkan implements digunakan untuk memenuhi persyaratan fungsional dari nol tanpa harus memiliki hubungan darah dengan kelas lain.
+
+4. Default method diperkenalkan (mulai Java 8) untuk mengatasi masalah Backward Compatibility (kompatibilitas ke belakang) saat mengembangkan library atau API.
+   Sebelumnya, jika pengembang menambahkan metode baru ke dalam sebuah interface, seluruh kode lama yang mengimplementasikan interface tersebut akan error (rusak) karena belum memiliki implementasi metode baru tersebut.
+   Dengan adanya default method, pengembang dapat menambahkan fitur baru ke interface dengan menyediakan implementasi standar langsung di dalamnya.
+
+5. Konsep multiple interface memperluas fleksibilitas desain dengan mengizinkan sebuah kelas untuk memiliki banyak "peran" sekaligus tanpa terjebak dalam masalah Diamond Problem yang sering muncul pada multiple inheritance.
+   Masalah Diamond Problem terjadi ketika sebuah kelas mewarisi dua induk yang memiliki atribut atau metode konkret yang sama, sehingga membingungkan compiler tentang mana yang harus dipakai.
+   Karena interface (sebelum default method) tidak memiliki implementasi kode dan tidak menyimpan state (variabel instance), tidak ada ambiguitas data yang terjadi.
